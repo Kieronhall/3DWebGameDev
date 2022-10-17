@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kieron's game</title>
+  <link href="resources/css/index.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<h1> This is the homepage of Kierons web game development project. </h1>
+
+<body>
+
+  <h2> My Web Game </h2>
+  <p> Introduction </p>
+
+
+
+
+
+  <button onClick="location.href='https://MyMainPage.kieronhall.repl.co/login.html'" type="button"> Login</button>
+
+  <button onClick="location.href='https://MyMainPage.kieronhall.repl.co/create_account.html'" type="button"> Create
+    Account</button>
+
+
+
+  <button id="ibutton">Event trigger</button>
+  <script>
+    function myClick() {
+      alert("This is my function");
+    }
+
+    //ES6 Function
+    const es6Call = () => {
+      alert("This is an ES6 function");
+    }
+
+    document.getElementById("ibutton").addEventListener("click", es6Call);
+
+  </script>
+
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
