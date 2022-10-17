@@ -1,2 +1,2 @@
 # 3DWebGameDev
-Repository setup for 3d Web Game.
+Repository setup for 3D Web Game.
